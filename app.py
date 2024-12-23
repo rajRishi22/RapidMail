@@ -16,6 +16,14 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 def index():
     return render_template('index.html')
 
+@app.route('/how_to_use')
+def how_to_use():
+    return render_template('how_to_use.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
 @app.route('/send_emails', methods=['POST'])
 def send_emails():
     # Get form data
