@@ -2,8 +2,8 @@
 
 {% block content %}
 <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-6">
-        <div class="card shadow-lg">
+    <div class="col-lg-10 d-flex">
+        <div class="card shadow-lg flex-grow-1">
             <div class="card-body">
                 <h1 class="card-title text-center">Send Bulk Emails</h1>
                 <form action="/send_emails" method="post" enctype="multipart/form-data">
@@ -35,6 +35,7 @@
                 </form>
             </div>
         </div>
+        <img src="{{ url_for('static', filename='email_automation_image.jpg') }}" class="email-automation-img" alt="Email Automation">
     </div>
 </div>
 {% endblock %}

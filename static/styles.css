@@ -16,7 +16,8 @@ body {
     animation: fadeIn 1s ease-in-out;
     max-height: 90vh;
     overflow-y: auto;
-    width: 100%;
+    flex-grow: 1;
+    margin-right: 0;
 }
 
 @keyframes fadeIn {
@@ -50,4 +51,10 @@ body {
     100% {
         transform: translateY(0px);
     }
+}
+
+.email-automation-img {
+    max-height: 90vh;
+    object-fit: cover;
+    border-radius: 10px;
 }
