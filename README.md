@@ -101,5 +101,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or support, please contact:
-- Raj Rishi: rajRishi22@example.com
+- Raj Rishi: rishiraj.dev1234@gmail.com
 - GitHub: [rajRishi22](https://github.com/rajRishi22)
