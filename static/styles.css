@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    margin-top:30vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right ,rgb(218, 104, 17), #c6af63);
+    color: #333;
+    margin: 10;
+    padding: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #333;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="file"],
+textarea {
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #6a11cb;
+}
+
+input[type="file"]::file-selector-button {
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background: #6a11cb;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+form {
+    animation: fadeIn 1s ease-in-out;
+}
