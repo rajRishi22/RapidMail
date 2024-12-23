@@ -1,16 +1,24 @@
-
-
 {% extends "base.html" %}
 
 {% block content %}
-<h1>How to Use</h1>
-<p>Follow these steps to use the Email Sender application:</p>
-<ol>
-    <li>Enter the sender's email address and password.</li>
-    <li>Enter the subject and body of the email.</li>
-    <li>Upload an Excel file containing the email addresses of the recipients.</li>
-    <li>Upload the resume file to be attached to the email.</li>
-    <li>Click on the "Send Emails" button to send the emails.</li>
-</ol>
-
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+            <div class="card shadow-lg p-4">
+                <div class="card-body">
+                    <h1 class="card-title text-center display-4 highlight-text">How to Use</h1>
+                    <p class="lead highlight-text">Follow these steps to use the Email Sender application:</p>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item highlight-text">Set up the SMTP server by following the link provided.</li>
+                        <li class="list-group-item highlight-text">Enter the sender's email address and password generated from the SMTP server.</li>
+                        <li class="list-group-item highlight-text">Enter the subject and body of the email.</li>
+                        <li class="list-group-item highlight-text">Upload an Excel file containing the email addresses of the recipients.</li>
+                        <li class="list-group-item highlight-text">Upload the attachments to be sent with the email.</li>
+                        <li class="list-group-item highlight-text">Click on the "Send Emails" button to start sending the emails.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

@@ -5,30 +5,30 @@
     <div class="col-lg-10 d-flex">
         <div class="card shadow-lg flex-grow-1">
             <div class="card-body">
-                <h1 class="card-title text-center">Send Bulk Emails</h1>
+                <h2 class="card-title text-center highlight-text"> Send Bulk Emails</h2>
                 <form action="/send_emails" method="post" enctype="multipart/form-data">
-                    <div class="form-group">
-                        <label for="sender_email">Sender Email:</label>
+                    <div class="form-group highlight-text">
+                        <label for="sender_email">Enter Email:</label>
                         <input type="email" class="form-control" id="sender_email" name="sender_email" required>
                     </div>
-                    <div class="form-group">
-                        <label for="sender_password">Sender Password:</label>
+                    <div class="form-group highlight-text">
+                        <label for="sender_password">SMTP Password:(<a href="https://youtu.be/kTcmbZqNiGw?si=H1KU0AkzuRHU7nkf">click here to set up smtp server</a>)</label>
                         <input type="password" class="form-control" id="sender_password" name="sender_password" required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group highlight-text">
                         <label for="subject">Email Subject:</label>
                         <input type="text" class="form-control" id="subject" name="subject" required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group highlight-text">
                         <label for="body">Email Body:</label>
                         <textarea class="form-control" id="body" name="body" rows="10" required></textarea>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group highlight-text">
                         <label for="excel_file">Excel File:</label>
                         <input type="file" class="form-control-file" id="excel_file" name="excel_file" accept=".xlsx" required>
                     </div>
-                    <div class="form-group">
-                        <label for="resume_file">Resume File:</label>
+                    <div class="form-group highlight-text">
+                        <label for="resume_file">Attachments/Resume File:</label>
                         <input type="file" class="form-control-file" id="resume_file" name="resume_file" accept=".pdf" required>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">Send Emails</button>
