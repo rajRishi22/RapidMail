@@ -3,13 +3,22 @@
 RapidMail is a simple web application that allows users to send emails using a web interface. It is built using Flask and can be deployed easily on platforms like Vercel.
 
 ## Table of Contents
-
+- [Preview](#Preview)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+
+## Preview 
+![image](https://github.com/user-attachments/assets/8e4d1c3c-832d-45c2-991e-306539dc83d0)
+![image](https://github.com/user-attachments/assets/f2d10b6d-f74c-4ffa-b059-97d7c8d871bb)
+![image](https://github.com/user-attachments/assets/8ce6accb-4ee4-4bba-bcb1-6b195cf36fa1)
+![image](https://github.com/user-attachments/assets/05ae4475-95dc-4fd1-a499-4cc2af53ba1f)
+
+
+
 
 ## Installation
 
